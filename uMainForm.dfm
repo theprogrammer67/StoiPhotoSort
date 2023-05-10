@@ -25,10 +25,6 @@ object frmMainForm: TfrmMainForm
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
-    ExplicitLeft = 176
-    ExplicitTop = 168
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object lvPhotos: TListView
       AlignWithMargins = True
       Left = 3
@@ -43,10 +39,6 @@ object frmMainForm: TfrmMainForm
       SmallImages = ilImages
       TabOrder = 0
       ViewStyle = vsList
-      ExplicitLeft = 8
-      ExplicitTop = 35
-      ExplicitWidth = 403
-      ExplicitHeight = 175
     end
   end
   object pnlBottom: TPanel
@@ -56,9 +48,7 @@ object frmMainForm: TfrmMainForm
     Height = 184
     Align = alBottom
     BevelOuter = bvNone
-    TabOrder = 1
-    ExplicitTop = 216
-    ExplicitWidth = 423
+    TabOrder = 0
     DesignSize = (
       592
       184)
@@ -78,9 +68,6 @@ object frmMainForm: TfrmMainForm
       Height = 104
       Align = alTop
       TabOrder = 0
-      ExplicitLeft = 1
-      ExplicitTop = 1
-      ExplicitWidth = 421
       object acttbDestionation: TActionToolBar
         Left = 1
         Top = 80
@@ -90,7 +77,7 @@ object frmMainForm: TfrmMainForm
         Align = alBottom
         Caption = 'acttbDestionation'
         Color = clMenuBar
-        ColorMap.DisabledFontColor = 7171437
+        ColorMap.DisabledFontColor = 10461087
         ColorMap.HighlightColor = clWhite
         ColorMap.BtnSelectedFont = clBlack
         ColorMap.UnusedColor = clWhite
@@ -101,8 +88,6 @@ object frmMainForm: TfrmMainForm
         Font.Style = []
         ParentFont = False
         Spacing = 0
-        ExplicitTop = 86
-        ExplicitWidth = 402
       end
       object lvDestinations: TListView
         Left = 1
@@ -123,9 +108,6 @@ object frmMainForm: TfrmMainForm
         ViewStyle = vsReport
         OnClick = lvDestinationsClick
         OnDblClick = lvDestinationsDblClick
-        ExplicitTop = -32
-        ExplicitWidth = 402
-        ExplicitHeight = 85
       end
     end
     object btnCopyFiles: TButton
@@ -185,8 +167,6 @@ object frmMainForm: TfrmMainForm
       item
         Width = 1000
       end>
-    ExplicitTop = 400
-    ExplicitWidth = 423
   end
   object pnlTop: TPanel
     Left = 0
@@ -196,7 +176,6 @@ object frmMainForm: TfrmMainForm
     Align = alTop
     BevelOuter = bvNone
     TabOrder = 3
-    ExplicitWidth = 423
     DesignSize = (
       592
       33)
@@ -261,7 +240,6 @@ object frmMainForm: TfrmMainForm
       Caption = 'Source'
       TabOrder = 0
       OnClick = btnSelectSrcFolderClick
-      ExplicitLeft = 337
     end
     object edtSrcPath: TEdit
       Left = 32
@@ -356,7 +334,7 @@ object frmMainForm: TfrmMainForm
     Left = 336
     Top = 184
     Bitmap = {
-      494C010102000800200010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010102000800040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000002925220029252200292522002925
       2200292522002925220029252200292522002925220029252200292522002925
